@@ -1,0 +1,36 @@
+.add-product  {
+    background-color: #c2c6c7;
+}
+
+.icon_box svg {
+    height: 75px;
+}
+
+.help_box-title {
+    color: #2c2f30;
+}
+
+.product-img {
+    height: 250px;
+    width: 200px;
+}
+
+.product-img img {
+    border: 1px solid;
+    width: 185px;
+}
+
+.product-img p {
+    color: #5e6062;
+}
+
+.prod-desc {
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.prod-var {
+    font-size: 13px;
+}

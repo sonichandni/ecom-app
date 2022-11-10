@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', 'ProductController@index');
+Route::get('/get-sub-category/{id}', 'CategoryController@getSubCategoty');
+Route::post('/add-product', 'ProductController@addProduct');
+Route::post('/add-category', 'CategoryController@addCategory');
