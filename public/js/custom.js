@@ -32,8 +32,8 @@ $(document).on("click", "#submit_variant", function() {
 
     $('.variant-section').removeClass("d-none");
     $("#new_var_name").html(vname)
-    $("#new_var_price").html(vprice)
-    $("#new_var_oprice").html(voprice)
+    $("#new_var_price").html(`Rs. ${vprice}`)
+    $("#new_var_oprice").html(`Rs. ${voprice}`)
 
     $("#var_name").val(vname)
     $("#var_price").val(vprice)

@@ -21,11 +21,11 @@
                     @if(!empty($product->variant))
                     <div class="d-flex justify-content-between prod-var">
                         <div>
-                            <p id="new_var_name">{{$product->variant->name}}</p>
+                            <p>{{$product->variant->name}}</p>
                         </div>
                         <div class="d-flex">
-                            <p class="mr-2" id="new_var_oprice">Rs. {{$product->variant->price}}</p>
-                            <p class="text-decoration-line-through" id="new_var_price">Rs. {{$product->variant->offer_price}}</p>
+                            <p class="mr-2">Rs. {{$product->variant->price}}</p>
+                            <p class="text-decoration-line-through">Rs. {{$product->variant->offer_price}}</p>
                         </div>
                     </div>
                     @endif
